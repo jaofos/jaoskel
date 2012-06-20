@@ -1,5 +1,5 @@
 class User
-  include Mongoid::Document
+  include DataMapper::Resource
   
   # ...
 end
